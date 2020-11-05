@@ -42,6 +42,7 @@ class Quote(object):
         res.append(self.high)
         res.append(self.low)
         return str(res)
+        
 print("      name       time      price  change   open      high     low ")
 
 while True:
