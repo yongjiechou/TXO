@@ -68,7 +68,6 @@ while True:
             quote.open = float(items[10].font.text.replace(',', ''))
             quote.high = float(items[11].font.text.replace(',', ''))
             quote.low = float(items[12].font.text.replace(',', ''))
-
             quotes[name] = quote
             print(quote)
 
